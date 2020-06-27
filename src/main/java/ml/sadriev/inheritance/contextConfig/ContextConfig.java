@@ -7,13 +7,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("ml.sadriev.session")
+@ComponentScan("ml.sadriev.inheritance")
 public class ContextConfig {
 
     private static final String ML_SADRIEV_HIBERNATE = "ml.sadriev.hibernate";
 
-    @Bean
+/*    @Bean
     public EntityManagerFactory emFactory() {
         return Persistence.createEntityManagerFactory(ML_SADRIEV_HIBERNATE);
-    }
+    }*/
 }
